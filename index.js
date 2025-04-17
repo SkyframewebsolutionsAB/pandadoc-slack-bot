@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 app.use(express.json());
 
-const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/XXX/YYY/ZZZ'; // Byt ut denna till din!
+const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'; // Byt ut denna till din!
 
 app.post('/pandadoc-webhook', async (req, res) => {
   const event = req.body;
